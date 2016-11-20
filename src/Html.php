@@ -1,11 +1,7 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: jasch
- * Date: 20.09.2016
- * Time: 06:25
- */
+namespace Markup;
+
 class Html {
     private $tag;
     private $attributes;

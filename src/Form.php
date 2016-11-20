@@ -1,11 +1,9 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: jascha
- * Date: 20.09.2016
- * Time: 05:16
- */
+namespace Markup;
+
+use Html;
+
 class Form {
 
     /**
