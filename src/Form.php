@@ -7,8 +7,8 @@ use Html;
 class Form {
 
     /**
-     * Erstellt einen <form>-Tag inklusive cfrs-Token
-     * @param string $route
+     * Erstellt einen <form>-Tag
+     * @param string $action
      * @param array $settings
      * @return string
      */
