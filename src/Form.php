@@ -34,7 +34,7 @@ class Form {
         /*
          * Erstellt einen Tag und gibt ihn zurück
          */
-        return Html::createTag('form', $settings) . csrf_field();
+        return Html::createTag('form', $settings);
     }
 
     /**
