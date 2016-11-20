@@ -1,0 +1,23 @@
+{
+    "name": "dreinull/markup",
+    "description": "A small helper for creating HTML-Tags, especially Form-Tags",
+    "type": "library",
+    "keywords": ["HTML", "Form", "helper"],
+    "homepage": "http://github.com/dreinull/markup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jascha Gerles",
+            "email": "jascha@media-dreinull.de",
+            "homepage": "http://media-dreinull.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Markup\\": "src/"
+        }
+    }
+}
