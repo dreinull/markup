@@ -2,8 +2,6 @@
 
 namespace Markup;
 
-use Html;
-
 class Form {
 
     /**
