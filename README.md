@@ -1,7 +1,7 @@
 # Markup
 This is a small class for creating forms quickly in PHP. Easy to use with Twitter Bootstrap.
 
-##Opening a Form
+## Opening a Form
 For *opening a form* you can use `Form::open('url/to/go', $attributes);`
 
 $attributes is an array used in the HTML tag. The defaults are:
@@ -19,7 +19,7 @@ If you set 'file' to true it will ctreate a <form enctype="multipart/form-data">
 
 To *close a form* just use `Form::close();`.
 
-##Create Inputs
+## Create Inputs
 
 Let's begin with creating a simple *text input*:
 
@@ -54,14 +54,14 @@ The are more inputs using the same syntax:
 * `Form::file($name, $label, $attributes)` (Without default value)
 * `Form::textarea($name, $input, $attributes)` (Without label)
 
-##More inputs
+## More inputs
 `Form::select($name, $options, $default, $attributes);` creates a select tag. $options is an array of selectable options with `$value => $name`. You can set $default with one of the $value names.
 
 `Form::radio($name, $value, $description, $checked, $attributes);` creates a radio button. $checked is a boolean.
 
 `Form::checkbox(§name, $label, $value, $checked);` created a checkbox. Defaults are: $value = 1, $checked = 0
 
-##Submitting a Form
+## Submitting a Form
 
 `Form::submit('Submit', 'success');` creates the following:
 ```
